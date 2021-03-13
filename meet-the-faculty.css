@@ -1,0 +1,43 @@
+html {background-color: #DE6217;}
+header h1 {color: #000000;
+text-align: left;
+font-size:270%;
+    font-weight:normal;
+font-family: "Neucha";}
+/* Site Navigation */
+.site-nav {margin-top: 20px;}
+.site-nav ul {margin: 0;
+  padding: 0;}
+.site-nav li {list-style: none;
+  float: left;
+  margin-right: 5px;}
+.site-nav a {display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 3px solid black;
+  border-bottom: 3px solid black;
+box-shadow: 10px 5px 5px rgba(128, 58, 58, 0.5);
+border-radius: 50px;}
+.site-nav {max-width:100;}
+.site-nav a:hover {background-color: #C9CCCE}
+/* End Site Navigation */
+footer {padding: 10px 0px 0px 0px;}
+@media screen and (max-width: 700px) {
+    .site-nav a {padding: 5px 10px;}}
+    .Schaubroeck{border-bottom: 5px solid #605E5E;}
+    .Funkhauser{border-bottom: 5px solid #605E5E;}
+    .Spielman{border-bottom: 5px solid #605E5E;}
+.Spielman img {max-width: 350px;}
+    .Thorpe{border-bottom: 5px solid #605E5E;}
+.bio {max-width: 45%;
+    transform: translateY(-250px) translateX(375px)}
+.bio2 {max-width: 38%;
+    transform: translateY(-250px) translateX(430px)}
+     .Schaubroeck .Spic {max-width: 400px;}
+ p {font-family: "Libre Baskerville";
+font-size: 125%;}
+.description {border-bottom: 5px solid #605E5E;}
+.next-and-previous {font-size: 150%;}
+.next-and-previous {background-color: black;
+max-width: 35%;}
